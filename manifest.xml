@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="llvm.org" fetch="http://llvm.org/git/" />
+    <remote name="mcw-bitbucket" fetch="https://bitbucket.org/multicoreware/" />
+
+    <default revision="master" />
+
+    <project path="llvm" remote="llvm.org" name="llvm" />
+    <project path="llvm/tools/lld" remote="llvm.org" name="lld" />
+    <project path="llvm" remote="llvm.org" name="llvm" />
+    <project path="hcc" remote="mcw-bitbucket" name="hcc" />
+</manifest>
