@@ -7,6 +7,5 @@
 
     <project path="llvm" remote="llvm.org" name="llvm" />
     <project path="llvm/tools/lld" remote="llvm.org" name="lld" />
-    <project path="llvm" remote="llvm.org" name="llvm" />
     <project path="hcc" remote="mcw-bitbucket" name="hcc" />
 </manifest>
