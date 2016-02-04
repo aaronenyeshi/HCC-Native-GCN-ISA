@@ -3,9 +3,7 @@
     <remote name="llvm.org" fetch="http://llvm.org/git/" />
     <remote name="mcw-bitbucket" fetch="https://bitbucket.org/multicoreware/" />
 
-    <default revision="master" />
-
-    <project path="llvm" remote="llvm.org" name="llvm" />
-    <project path="llvm/tools/lld" remote="llvm.org" name="lld" />
-    <project path="hcc" remote="mcw-bitbucket" name="hcc" />
+    <project path="llvm" remote="llvm.org" name="llvm" revision="0e71de1" />
+    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="c534d64" />
+    <project path="hcc" remote="mcw-bitbucket" name="hcc" revision="ba2c4df"/>
 </manifest>
