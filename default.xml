@@ -2,8 +2,12 @@
 <manifest>
     <remote name="llvm.org" fetch="http://llvm.org/git/" />
     <remote name="mcw-bitbucket" fetch="https://bitbucket.org/multicoreware/" />
+    <remote name="roc-github" fetch="https://github.com/RadeonOpenCompute/" />
 
-    <project path="llvm" remote="llvm.org" name="llvm" revision="b77a6ae3ef63f4f35e87a3c0a7bfd895f406c3b0" />
-    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="ed3f04104e86208ba27b6eb5a2b0bbd749586db1" />
-    <project path="hcc" remote="mcw-bitbucket" name="hcc" revision="33432be0ab37668e55f1f534294d7525587518a4"/>
+    <project path="llvm" remote="llvm.org" name="llvm" revision="b6b0d4e7f2b22e317e7ffb75e812a06330a1020a" />
+    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="f62be0c1e336ae9e4f25e4155da2fc243358d843" />
+    <project path="hcc" remote="mcw-bitbucket" name="hcc" revision="957c5abeb3ede04266d24e174e423a64189e2be9"/>
+    <project path="llvm-amdgpu-assembler-extra" remote="roc-github"
+             name="LLVM-AMDGPU-Assembler-Extra"
+             revision="17e3c31514d624ddf4264f1ac5c08e2e317c3238" />
 </manifest>
