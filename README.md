@@ -4,6 +4,10 @@ See the [wiki](https://github.com/RadeonOpenCompute/HCC-Native-GCN-ISA/wiki) for
 
 #### News
 
+##### March 24, 2016
+
+Testing branch updated.
+
 ##### March 15, 2016
 
 Testing branch updated.  amdphdrs tools is now required, see the build instructions on the wiki for more details.
