@@ -3,10 +3,10 @@
     <remote name="llvm.org" fetch="http://llvm.org/git/" />
     <remote name="roc-github" fetch="https://github.com/RadeonOpenCompute/" />
 
-    <project path="llvm" remote="llvm.org" name="llvm" revision="b6b0d4e7f2b22e317e7ffb75e812a06330a1020a" />
-    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="f62be0c1e336ae9e4f25e4155da2fc243358d843" />
-    <project path="hcc" remote="roc-github" name="hcc" revision="957c5abeb3ede04266d24e174e423a64189e2be9"/>
+    <project path="llvm" remote="llvm.org" name="llvm" revision="9d3b0b6716929366c718c684bf18bb5319ec39fd" />
+    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="0c29f89aeb90bf6381f6a11777a1111c25738290" />
+    <project path="hcc" remote="roc-github" name="hcc" revision="ec7664ae616743ea5eff44f87e640ad2f69af31b"/>
     <project path="llvm-amdgpu-assembler-extra" remote="roc-github"
              name="LLVM-AMDGPU-Assembler-Extra"
-             revision="17e3c31514d624ddf4264f1ac5c08e2e317c3238" />
+             revision="da9895efe104953b202e7467e9b674e047efeec9" />
 </manifest>
