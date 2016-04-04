@@ -6,6 +6,8 @@ See the [wiki](https://github.com/RadeonOpenCompute/HCC-Native-GCN-ISA/wiki) for
 
 ##### April 4, 2016
 
+Added roc-1.0 stable branch.
+
 Testing branch updated.
 
 ##### March 24, 2016
