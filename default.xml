@@ -3,7 +3,7 @@
     <remote name="llvm.org" fetch="http://llvm.org/git/" />
     <remote name="roc-github" fetch="https://github.com/RadeonOpenCompute/" />
 
-    <project path="llvm" remote="llvm.org" name="llvm" revision="aa07a976c36b983d16fcf0fc666fdafd4978deb4" />
-    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="9941eca0157ecfba6f77f7ed4ab98fd84fb575e3" />
+    <project path="llvm" remote="llvm.org" name="llvm" revision="61ce2774832af668fa65c7b5999373b8667be042" />
+    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="b85cffdb4cce462b29846e4e3b61f8b3444f9fcb" />
     <project path="hcc" remote="roc-github" name="hcc" revision="d14f96952140987e254867755f1600613e19abff"/>
 </manifest>
