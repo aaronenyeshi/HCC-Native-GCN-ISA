@@ -3,7 +3,7 @@
     <remote name="llvm.org" fetch="http://llvm.org/git/" />
     <remote name="roc-github" fetch="https://github.com/RadeonOpenCompute/" />
 
-    <project path="llvm" remote="llvm.org" name="llvm" revision="roc-1.1.x" />
-    <project path="llvm/tools/lld" remote="llvm.org" name="lld" revision="roc-1.1.x" />
+    <project path="llvm" remote="roc-github" name="llvm" revision="roc-1.1.x" />
+    <project path="llvm/tools/lld" remote="roc-github" name="lld" revision="roc-1.1.x" />
     <project path="hcc" remote="roc-github" name="hcc" revision="roc-1.1.x"/>
 </manifest>
