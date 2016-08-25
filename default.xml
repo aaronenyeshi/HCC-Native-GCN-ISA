@@ -49,7 +49,7 @@
              revision="master"/>
 
     <!-- ToT LLD, used to build AMDGPU backend -->
-    <project name="llvm-mirror/llvm"
+    <project name="llvm-mirror/lld"
              path="llvm/tools/lld"
              remote="github"
              revision="master"/>
