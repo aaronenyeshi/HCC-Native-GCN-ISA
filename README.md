@@ -4,6 +4,10 @@ See the [wiki](https://github.com/RadeonOpenCompute/HCC-Native-GCN-ISA/wiki) for
 
 #### News
 
+##### August 25, 2016
+
+Added clang_tot_upgrade branch for ToT HCC.
+
 ##### April 4, 2016
 
 Added roc-1.0 stable branch.
