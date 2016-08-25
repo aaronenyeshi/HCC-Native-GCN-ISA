@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="llvm.org" fetch="http://llvm.org/git/" />
-    <remote name="roc-github" fetch="https://github.com/RadeonOpenCompute/" />
+    <!-- GitHub remote -->
+    <remote name="github" fetch="https://github.com/"/>
 
-    <default revision="master" />
+    <!-- Instead of using "sync-s" in ToT HCC project, we now explicitly
+         enumerate all submodules used by ToT HCC in the manifest -->
 
-    <project path="llvm" remote="llvm.org" name="llvm" />
-    <project path="llvm/tools/lld" remote="llvm.org" name="lld" />
-    <project path="hcc" remote="roc-github" name="hcc" />
-    <project path="llvm-amdgpu-assembler-extra" remote="roc-github"
-             name="LLVM-AMDGPU-Assembler-Extra" />
+    <!-- ToT HCC -->
+    <project name="RadeonOpenCompute/hcc"
+             path="hcc"
+             remote="github"
+             revision="clang_tot_upgrade"/>
+
+    <!-- ToT HCC Clang -->
+    <project name="RadeonOpenCompute/hcc-clang-upgrade"
+             path="hcc/clang"
+             remote="github"
+             revision="clang_tot_upgrade"/>
+
+    <!-- HSAILasm -->
+    <project name="HSAFoundation/HSAIL-Tools"
+             path="hcc/HSAILasm"
+             remote="github"
+             revision="master"/>
+
+    <!-- HLC -->
+    <project name="HSAFoundation/HLC-HSAIL-Development-LLVM"
+             path="hcc/hlc"
+             remote="github"
+             revision="hsail-stable-3.7"/>
+
+    <!-- ToT LLVM placed inside ToT HCC -->
+    <project name="llvm-mirror/llvm"
+             path="hcc/compiler"
+             remote="github"
+             revision="master"/>
+
+    <!-- ToT LLD placed inside ToT HCC -->
+    <project name="llvm-mirror/lld"
+             path="hcc/lld"
+             remote="github"
+             revision="master"/>
+
+    <!-- ToT LLVM, used to build AMDGPU backend -->
+    <project name="llvm-mirror/llvm"
+             path="llvm"
+             remote="github"
+             revision="master"/>
+
+    <!-- ToT LLD, used to build AMDGPU backend -->
+    <project name="llvm-mirror/llvm"
+             path="llvm/tools/lld"
+             remote="github"
+             revision="master"/>
+
 </manifest>
