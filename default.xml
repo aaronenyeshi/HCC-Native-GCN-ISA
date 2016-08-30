@@ -5,5 +5,5 @@
 
     <project path="llvm" remote="roc-github" name="llvm" revision="roc-1.2.x" />
     <project path="llvm/tools/lld" remote="roc-github" name="lld" revision="roc-1.2.x" />
-    <project path="hcc" remote="roc-github" name="hcc" revision="roc-1.2.x"/>
+    <project path="hcc" remote="roc-github" name="hcc" revision="develop"/>
 </manifest>
