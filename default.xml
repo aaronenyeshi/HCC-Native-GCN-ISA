@@ -42,15 +42,27 @@
              remote="github"
              revision="master"/>
 
-    <!-- ToT LLVM, used to build AMDGPU backend -->
-    <project name="llvm-mirror/llvm"
+    <!-- amd-common LLVM, used to build AMDGPU backend, and ROCm-Device-Libs -->
+    <project name="RadeonOpenCompute/llvm"
              path="llvm"
              remote="github"
-             revision="master"/>
+             revision="amd-common"/>
 
-    <!-- ToT LLD, used to build AMDGPU backend -->
-    <project name="llvm-mirror/lld"
+    <!-- amd-common LLD, used to build AMDGPU backend, and ROCm-Device-Libs -->
+    <project name="RadeonOpenCompute/lld"
              path="llvm/tools/lld"
+             remote="github"
+             revision="amd-common"/>
+
+    <!-- amd-common Clang, used to ROCm-Device-Libs -->
+    <project name="RadeonOpenCompute/clang"
+             path="llvm/tools/clang"
+             remote="github"
+             revision="amd-common"/>
+
+    <!-- ROCm-Device-Libs -->
+    <project name="RadeonOpenCompute/ROCm-Device-Libs"
+             path="ocml"
              remote="github"
              revision="master"/>
 
