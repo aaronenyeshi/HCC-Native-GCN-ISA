@@ -18,18 +18,6 @@
              remote="github"
              revision="clang_tot_upgrade"/>
 
-    <!-- HSAILasm -->
-    <project name="HSAFoundation/HSAIL-Tools"
-             path="hcc/HSAILasm"
-             remote="github"
-             revision="master"/>
-
-    <!-- HLC -->
-    <project name="HSAFoundation/HLC-HSAIL-Development-LLVM"
-             path="hcc/hlc"
-             remote="github"
-             revision="hsail-stable-3.7"/>
-
     <!-- ToT LLVM placed inside ToT HCC -->
     <project name="llvm-mirror/llvm"
              path="hcc/compiler"
