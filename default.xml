@@ -18,11 +18,11 @@
              remote="github"
              revision="clang_tot_upgrade"/>
 
-    <!-- ToT LLVM placed inside ToT HCC -->
-    <project name="llvm-mirror/llvm"
+    <!-- amd-common LLVM placed inside ToT HCC -->
+    <project name="RadeonOpenCompute/llvm"
              path="hcc/compiler"
              remote="github"
-             revision="master"/>
+             revision="amd-common"/>
 
     <!-- amd-common LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
