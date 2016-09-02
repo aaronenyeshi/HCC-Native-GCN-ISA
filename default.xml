@@ -18,11 +18,11 @@
              remote="github"
              revision="clang_tot_upgrade"/>
 
-    <!-- amd-common LLVM placed inside ToT HCC -->
+    <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
              path="hcc/compiler"
              remote="github"
-             revision="amd-common"/>
+             revision="amd-hcc"/>
 
     <!-- amd-common LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
@@ -30,19 +30,19 @@
              remote="github"
              revision="amd-common"/>
 
-    <!-- amd-common LLVM, used to build AMDGPU backend, and ROCm-Device-Libs -->
+    <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
              path="llvm"
              remote="github"
              revision="amd-common"/>
 
-    <!-- amd-common LLD, used to build AMDGPU backend, and ROCm-Device-Libs -->
+    <!-- amd-common LLD, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/lld"
              path="llvm/tools/lld"
              remote="github"
              revision="amd-common"/>
 
-    <!-- amd-common Clang, used to ROCm-Device-Libs -->
+    <!-- amd-common Clang, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/clang"
              path="llvm/tools/clang"
              remote="github"
