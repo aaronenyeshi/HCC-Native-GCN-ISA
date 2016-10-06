@@ -28,7 +28,7 @@
     <project name="RadeonOpenCompute/lld"
              path="hcc/lld"
              remote="github"
-             revision="amd-common"/>
+             revision="f6269c882907f67fdfe6211d0ebe57d6880c3e49"/>
 
     <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
