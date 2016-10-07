@@ -2,6 +2,7 @@
 <manifest>
     <!-- GitHub remote -->
     <remote name="github" fetch="https://github.com/"/>
+    <remote name="github_hcc" fetch="https://github.com/"/>
 
     <!-- Instead of using "sync-s" in ToT HCC project, we now explicitly
          enumerate all submodules used by ToT HCC in the manifest -->
@@ -9,25 +10,25 @@
     <!-- ToT HCC -->
     <project name="RadeonOpenCompute/hcc"
              path="hcc"
-             remote="github"
+             remote="github_hcc"
              revision="clang_tot_upgrade"/>
 
     <!-- ToT HCC Clang -->
     <project name="RadeonOpenCompute/hcc-clang-upgrade"
              path="hcc/clang"
-             remote="github"
+             remote="github_hcc"
              revision="clang_tot_upgrade"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
              path="hcc/compiler"
-             remote="github"
+             remote="github_hcc"
              revision="amd-hcc"/>
 
     <!-- amd-hcc LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
              path="hcc/lld"
-             remote="github"
+             remote="github_hcc"
              revision="amd-hcc"/>
 
     <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
