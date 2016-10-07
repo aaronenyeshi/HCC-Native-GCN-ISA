@@ -24,11 +24,11 @@
              remote="github"
              revision="amd-hcc"/>
 
-    <!-- amd-common LLD, placed inside ToT HCC -->
+    <!-- amd-hcc LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
              path="hcc/lld"
              remote="github"
-             revision="f6269c882907f67fdfe6211d0ebe57d6880c3e49"/>
+             revision="amd-hcc"/>
 
     <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
