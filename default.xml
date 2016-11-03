@@ -2,57 +2,53 @@
 <manifest>
     <!-- GitHub remote -->
     <remote name="github" fetch="https://github.com/"/>
-    <remote name="github_hcc" fetch="https://github.com/"/>
-
-    <!-- Instead of using "sync-s" in ToT HCC project, we now explicitly
-         enumerate all submodules used by ToT HCC in the manifest -->
 
     <!-- ToT HCC -->
     <project name="RadeonOpenCompute/hcc"
              path="hcc"
-             remote="github_hcc"
-             revision="clang_tot_upgrade"/>
+             remote="github"
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
     <!-- ToT HCC Clang -->
     <project name="RadeonOpenCompute/hcc-clang-upgrade"
              path="hcc/clang"
-             remote="github_hcc"
-             revision="clang_tot_upgrade"/>
+             remote="github"
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
              path="hcc/compiler"
-             remote="github_hcc"
-             revision="amd-hcc"/>
+             remote="github"
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
     <!-- amd-hcc LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
              path="hcc/lld"
-             remote="github_hcc"
-             revision="amd-hcc"/>
+             remote="github"
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
-    <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
+    <!-- amd-hcc LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
              path="llvm"
              remote="github"
-             revision="amd-common"/>
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
-    <!-- amd-common LLD, used to build ROCm-Device-Libs -->
+    <!-- amd-hcc LLD, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/lld"
              path="llvm/tools/lld"
              remote="github"
-             revision="amd-common"/>
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
-    <!-- amd-common Clang, used to build ROCm-Device-Libs -->
-    <project name="RadeonOpenCompute/clang"
+    <!-- ToT HCC Clang, used to build ROCm-Device-Libs -->
+    <project name="RadeonOpenCompute/hcc-clang-upgrade"
              path="llvm/tools/clang"
              remote="github"
-             revision="amd-common"/>
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
     <!-- ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/ROCm-Device-Libs"
              path="ocml"
              remote="github"
-             revision="master"/>
+             revision="refs/tags/roc-1.4.0-rc1"/>
 
 </manifest>
