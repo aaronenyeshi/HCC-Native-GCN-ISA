@@ -6,4 +6,5 @@
     <project path="llvm" remote="roc-github" name="llvm" revision="amd-common" />
     <project path="llvm/tools/lld" remote="roc-github" name="lld" revision="amd-common" />
     <project path="hcc" remote="roc-github" name="hcc" revision="develop"/>
+    <project path="hcc/compiler/tools/clang" remote="roc-github" name="hcc-clang" revision="develop"/>
 </manifest>
