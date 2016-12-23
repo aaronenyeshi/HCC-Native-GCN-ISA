@@ -17,19 +17,19 @@
     <project name="RadeonOpenCompute/hcc-clang-upgrade"
              path="hcc/clang"
              remote="github_hcc"
-             revision="clang_tot_upgrade"/>
+             revision="clang_tot_12102016"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
              path="hcc/compiler"
              remote="github_hcc"
-             revision="amd-hcc"/>
+             revision="amd-hcc-merge-12102016"/>
 
     <!-- amd-hcc LLD, placed inside ToT HCC -->
     <project name="RadeonOpenCompute/lld"
              path="hcc/lld"
              remote="github_hcc"
-             revision="amd-hcc"/>
+             revision="amd-hcc-merge-12102016"/>
 
     <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
