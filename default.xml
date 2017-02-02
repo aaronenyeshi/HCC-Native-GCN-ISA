@@ -18,6 +18,12 @@
              path="hcc/clang"
              remote="github_hcc"
              revision="clang_tot_upgrade"/>
+    
+    <!-- ToT Clang extra tools -->
+    <project name="RadeonOpenCompute/clang-tools-extra"
+             path="clang/tools/extra"
+             remote="github_hcc"
+             revision="clang_tot_upgrade"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
