@@ -21,7 +21,7 @@
     
     <!-- ToT Clang extra tools -->
     <project name="RadeonOpenCompute/clang-tools-extra"
-             path="clang/tools/extra"
+             path="hcc/clang/tools/extra"
              remote="github_hcc"
              revision="clang_tot_upgrade"/>
 
