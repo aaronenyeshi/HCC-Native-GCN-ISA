@@ -31,6 +31,12 @@
              remote="github_hcc"
              revision="amd-hcc"/>
 
+    <!-- amd-hcc compiler-rt, placed inside ToT HCC -->
+    <project name="RadeonOpenCompute/compiler-rt"
+             path="hcc/compiler-rt"
+             remote="github_hcc"
+             revision="amd-hcc"/>
+
     <!-- amd-common LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
              path="llvm"
