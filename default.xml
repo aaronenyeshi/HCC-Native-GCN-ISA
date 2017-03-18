@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- GitHub remote -->
-    <remote name="github" fetch="https://github.com/"/>
+    <remote name="github"
+            fetch="https://github.com/"
+            pushurl="git@github.com:"/>
 
     <!-- ToT HCC -->
     <project name="RadeonOpenCompute/hcc"
@@ -13,7 +15,7 @@
     <project name="RadeonOpenCompute/hcc-clang-upgrade"
              path="hcc/clang"
              remote="github"
-             revision="remove-promote-change-addr-spac"/>
+             revision="remove-promote-change-addr-space"/>
 
     <!-- amd-hcc LLVM placed inside ToT HCC -->
     <project name="RadeonOpenCompute/llvm"
