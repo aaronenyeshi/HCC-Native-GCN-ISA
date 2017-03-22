@@ -27,6 +27,12 @@
              remote="github"
              revision="refs/tags/roc-1.5.0-rc1"/>
 
+    <!-- amd-hcc , placed inside ToT HCC -->
+    <project name="RadeonOpenCompute/compiler-rt"
+             path="hcc/compiler-rt"
+             remote="github"
+             revision="refs/tags/roc-1.5.0-rc1"/>
+
     <!-- amd-hcc LLVM, used to build ROCm-Device-Libs -->
     <project name="RadeonOpenCompute/llvm"
              path="llvm"
