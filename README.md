@@ -10,8 +10,6 @@ repo init -u https://github.com/RadeonOpenCompute/HCC-Native-GCN-ISA.git
 repo sync
 mkdir hcc/build
 cd hcc/build
-# Substitute <_distro_> with ubuntu for Ubuntu or with fedora for Fedora/CentOS/RHEL
-cmake .. \
-  -DDISTRO=<_distro_>
+cmake ..
 make
 ```
