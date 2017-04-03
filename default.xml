@@ -3,58 +3,40 @@
     <!-- GitHub remote -->
     <remote name="github" fetch="https://github.com/"/>
 
-    <!-- ToT HCC -->
+    <!-- HCC -->
     <project name="RadeonOpenCompute/hcc"
              path="hcc"
              remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
+             revision="refs/tags/roc-1.5.0-rc3"/>
 
     <!-- ToT HCC Clang -->
     <project name="RadeonOpenCompute/hcc-clang-upgrade"
              path="hcc/clang"
              remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
+             revision="refs/tags/roc-1.5.0-rc3"/>
 
-    <!-- amd-hcc LLVM placed inside ToT HCC -->
+    <!-- amd-hcc LLVM placed inside HCC -->
     <project name="RadeonOpenCompute/llvm"
              path="hcc/compiler"
              remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
+             revision="refs/tags/roc-1.5.0-rc3"/>
 
-    <!-- amd-hcc LLD, placed inside ToT HCC -->
+    <!-- amd-hcc LLD, placed inside HCC -->
     <project name="RadeonOpenCompute/lld"
              path="hcc/lld"
              remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
+             revision="refs/tags/roc-1.5.0-rc3"/>
 
-    <!-- amd-hcc , placed inside ToT HCC -->
+    <!-- amd-hcc compiler-rt, placed inside HCC -->
     <project name="RadeonOpenCompute/compiler-rt"
              path="hcc/compiler-rt"
              remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
+             revision="refs/tags/roc-1.5.0-rc3"/>
 
-    <!-- amd-hcc LLVM, used to build ROCm-Device-Libs -->
+    <!-- remote-promote-change-addr-space ROCm-Device-Libs, placed inside HCC -->
     <project name="RadeonOpenCompute/llvm"
              path="llvm"
              remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
-
-    <!-- amd-hcc LLD, used to build ROCm-Device-Libs -->
-    <project name="RadeonOpenCompute/lld"
-             path="llvm/tools/lld"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
-
-    <!-- ToT HCC Clang, used to build ROCm-Device-Libs -->
-    <project name="RadeonOpenCompute/hcc-clang-upgrade"
-             path="llvm/tools/clang"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
-
-    <!-- ROCm-Device-Libs -->
-    <project name="RadeonOpenCompute/ROCm-Device-Libs"
-             path="ocml"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc1"/>
+             revision="refs/tags/roc-1.5.0-rc3"/>
 
 </manifest>
