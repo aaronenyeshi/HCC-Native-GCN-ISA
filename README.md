@@ -1,4 +1,4 @@
-##### This repository contains a repo manifest for building the HCC compiler
+### This repository contains a repo manifest for building the HCC compiler
 
 See the [wiki](https://github.com/RadeonOpenCompute/HCC-Native-GCN-ISA/wiki) for more detailed information.
 
