@@ -1,42 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- GitHub remote -->
-    <remote name="github" fetch="https://github.com/"/>
-
-    <!-- HCC -->
-    <project name="RadeonOpenCompute/hcc"
-             path="hcc"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc3"/>
-
-    <!-- ToT HCC Clang -->
-    <project name="RadeonOpenCompute/hcc-clang-upgrade"
-             path="hcc/clang"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc3"/>
-
-    <!-- amd-hcc LLVM placed inside HCC -->
-    <project name="RadeonOpenCompute/llvm"
-             path="hcc/compiler"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc3"/>
-
-    <!-- amd-hcc LLD, placed inside HCC -->
-    <project name="RadeonOpenCompute/lld"
-             path="hcc/lld"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc3"/>
-
-    <!-- amd-hcc compiler-rt, placed inside HCC -->
-    <project name="RadeonOpenCompute/compiler-rt"
-             path="hcc/compiler-rt"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc3"/>
-
-    <!-- remote-promote-change-addr-space ROCm-Device-Libs, placed inside HCC -->
-    <project name="RadeonOpenCompute/ROCm-Device-Libs"
-             path="hcc/rocdl"
-             remote="github"
-             revision="refs/tags/roc-1.5.0-rc3"/>
-
+  <remote fetch="https://github.com/" name="github"/>
+  
+  <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="7cbbe3a16fb4a2da43f5b07a44686966008c1063" upstream="remove-promote-change-addr-space"/>
+  <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="fb189012ee81a46d098c225a2cc453141e5690d4" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="22662ed5433ddc584e1d4708b383022219a6234a" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="29b1406aaca27ef217040558f34baeeed3c93335" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="b737b32bac8ca3d4db27bca76341b21f0cc0da03" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="79a0f22bc684bda8ec404afb66e9ea20697017df" upstream="amd-hcc"/>
 </manifest>
