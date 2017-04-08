@@ -2,10 +2,10 @@
 <manifest>
   <remote fetch="https://github.com/" name="github"/>
   
-  <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="d10147a5f28acc9cf85510680d15f378055be0c8" upstream="remove-promote-change-addr-space"/>
-  <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="fb189012ee81a46d098c225a2cc453141e5690d4" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="cc9ec081d9513f9aa5b7931142f8efa9f43a1e68" upstream="clang_tot_upgrade"/>
-  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="7234260a2d0b1aed9439545cc0d5fdf5ce856b55" upstream="clang_tot_upgrade"/>
-  <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="d6f824f16139076dcc7338862818487e8ea68aac" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="32090c8407991c4f2cd21850cf259ec00c12fb38" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="ec61912972c63379cb002811e12c390fde1fdd6f" upstream="remove-promote-change-addr-space"/>
+  <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="71d6970bc75121c5d11ce5d32f32195b8c61bafd" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="06d93fe3b8baeabd7029e86d56567564a36bedcd" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="1ca15af6b6cc861e5ced7ebee96d89cade9b38f4" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="59f78adefc66e8f8b7a8b8a536be322d18d7113e" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="94da04125534a41869151038b4231ed67af1efda" upstream="amd-hcc"/>
 </manifest>
