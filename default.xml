@@ -4,7 +4,7 @@
   
   <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="5caf7c6ab5a299e5e2703193edf366fa55a5042c" upstream="remove-promote-change-addr-space"/>
   <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="fb189012ee81a46d098c225a2cc453141e5690d4" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="038d0cfb1ba40874de01c9be71709eb9f8885dbc" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="b8e90525f16990aa41146657897de7d38f4f4343" upstream="clang_tot_upgrade"/>
   <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="8685ae33a8365750d80092957928b7212a6b6abe" upstream="clang_tot_upgrade"/>
   <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="d6f824f16139076dcc7338862818487e8ea68aac" upstream="amd-hcc"/>
   <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="32090c8407991c4f2cd21850cf259ec00c12fb38" upstream="amd-hcc"/>
