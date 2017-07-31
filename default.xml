@@ -4,8 +4,8 @@
   
   <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="1db13d895d35741a449b027d2a79430924ecf252" upstream="master"/>
   <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="5678d284374eae1954ebf2c259a2d700d99ec0d4" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="372b645da750dd2dad9a9d9ffa4d14c00a4ac055" upstream="clang_tot_upgrade"/>
-  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="be4cf4e146771e744fdb4ce58d3c99f3176c7e69" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="74a96c68f6e05b11dd32267d8d6b99f75c7b2db3" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="1d969ccd456121890a65dd134cf71ddebe396152" upstream="clang_tot_upgrade"/>
   <project name="RadeonOpenCompute/clang-tools-extra" path="hcc/clang-tools-extra" remote="github" revision="5eab0f2489d43cec3f6aa41a73d717da04910786" upstream="amd-hcc"/>
   <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="ec5fbca1d65cce62c188e895a48484ff8ed429d8" upstream="amd-hcc"/>
   <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="9812862997c144ab50a3c8d4e3221e72fb1e447d" upstream="amd-hcc"/>
