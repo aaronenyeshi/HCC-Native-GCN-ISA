@@ -2,11 +2,11 @@
 <manifest>
   <remote fetch="https://github.com/" name="github"/>
   
-  <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="812e697d2bfbf8a1062a10543b9af58ed2a57f32" upstream="master"/>
-  <project name="RadeonOpenCompute/clang-tools-extra" path="hcc/clang-tools-extra" remote="github" revision="a2831818b51f2e9b4fe96ee34ee482e04a33a1e4" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="49ced490bde450beb461b7ca91ae6dedb05a562f" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="ea8eb3d6924883b13b7f0c744e68348a397e5cb8" upstream="clang_tot_upgrade"/>
-  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="243cf889c0894cdd9b495d3e0764c301b8bec7dd" upstream="clang_tot_upgrade"/>
-  <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="102198e39f5b7a0337bce16fc646aac0a20e778b" upstream="amd-hcc"/>
-  <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="e4adac07fe989aae9d7d7a802794ef839e28a6ad" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/ROCm-Device-Libs" path="hcc/rocdl" remote="github" revision="4b1b0669164ee8167eedd1fd453c445460c0a190" upstream="master"/>
+  <project name="RadeonOpenCompute/clang-tools-extra" path="hcc/clang-tools-extra" remote="github" revision="147f9e59de66075180eb02b052b7fb48a71593d8" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/compiler-rt" path="hcc/compiler-rt" remote="github" revision="0b4871e3a2b9019a7aa77b5da7636f92b8193ec1" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/hcc" path="hcc" remote="github" revision="613818479772aceab86ac7e4e20f30ffd367f4c5" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/hcc-clang-upgrade" path="hcc/clang" remote="github" revision="62223d8c2e5dcb28ddbad1a8fb21fffcc0f1561e" upstream="clang_tot_upgrade"/>
+  <project name="RadeonOpenCompute/lld" path="hcc/lld" remote="github" revision="63a8e82dbf0d6c0ced173cc23e62b522a3386e48" upstream="amd-hcc"/>
+  <project name="RadeonOpenCompute/llvm" path="hcc/compiler" remote="github" revision="54713073c10a603dcc2bd65e45c249609f5ae525" upstream="amd-hcc"/>
 </manifest>
